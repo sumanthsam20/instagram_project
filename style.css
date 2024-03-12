@@ -1,0 +1,140 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    margin: auto;
+    padding: 10px 10px;
+    align-items: center; 
+}
+
+.logo{
+    height: 32px;
+}
+
+.btn{
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.story-container{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+    gap: 20px;
+}
+.story-img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.story-img:hover{
+    transform: rotate(2deg) scale(1.1);
+}
+
+.story-name{
+    text-align: center;
+}
+
+.profile{
+    width: 60px;
+    height: 50px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.userstory-name{
+    font-size: 12px;
+    color: gray;
+}
+
+.container{
+    display:flex;
+}
+
+.my-profile{
+    border: 1px solid lightgray;
+    width: 550px ;
+    height: 550px;
+    border-radius: 12px;
+    margin-top: 60px;
+    margin-right: 100px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(239, 239, 239);
+}
+
+.my-profile-img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 140px;
+    margin-top: 20px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.my-name{
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile-btn{
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 2px;
+    border: none;
+
+}
+.profile-btn:hover{
+    background-color: white;
+    border-radius: 12px;
+}
+
+.feed{
+    width: 560px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.feed-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.bi{
+    font-size: 24px;
+}
+.reactions{
+    display: flex;
+    justify-content: space-between;
+}
+.reactions-left{
+    display: flex;
+    gap: 16px;
+}
+
+.feeds{
+    gap: 20px;
+    width: 990px;
+    margin:60px auto;
+    }
